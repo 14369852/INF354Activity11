@@ -10,7 +10,7 @@ print ("========================================================================
 
 # 2. Add new calculated column
 print("2. Add calculated column. Success")
-tips["tips_percent"] = tips["total_bill"]/ tips["tip"]
+tips["tips_percent"] = tips["tip"]/ tips["total_bill"]*100
 print(tips)
 print ("===============================================================================")
 
